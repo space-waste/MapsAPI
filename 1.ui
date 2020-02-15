@@ -36,10 +36,10 @@
     </rect>
    </property>
    <property name="placeholderText">
-    <string>введите адрес поиска</string>
+    <string>37.530887</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="edit_x_2">
+  <widget class="QTextEdit" name="edit_y">
    <property name="geometry">
     <rect>
      <x>720</x>
@@ -49,10 +49,10 @@
     </rect>
    </property>
    <property name="placeholderText">
-    <string>введите адрес поиска</string>
+    <string>55.703118</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="edit_x_3">
+  <widget class="QTextEdit" name="mashtab">
    <property name="geometry">
     <rect>
      <x>720</x>
@@ -62,7 +62,7 @@
     </rect>
    </property>
    <property name="placeholderText">
-    <string>введите адрес поиска</string>
+    <string>0.002</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
