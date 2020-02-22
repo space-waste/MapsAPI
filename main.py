@@ -21,6 +21,7 @@ class MyMap(QWidget):
         # 37.530887, 55.703118
         self.map_request = ['http://static-maps.yandex.ru/1.x/?ll=', self.x, ',', self.y,
                             '&spn=', self.masht, ',', self.masht, '&l=map']
+        self.setImageToPixmap()
 
     def getImage(self):
         self.x = self.edit_x.toPlainText()
@@ -58,4 +59,3 @@ if __name__ == '__main__':
     ex = MyMap()
     ex.show()
     sys.exit(app.exec())
-
